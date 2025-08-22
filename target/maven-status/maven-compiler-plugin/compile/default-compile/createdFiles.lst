@@ -1,0 +1,6 @@
+com\github\minh2\back\DeathListener.class
+com\github\minh2\back\StoredLocation.class
+com\github\minh2\back\BackCommand.class
+com\github\minh2\back\Back.class
+com\github\minh2\back\ConfigManager.class
+com\github\minh2\back\BackCommand$TeleportTask.class

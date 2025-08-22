@@ -1,0 +1,28 @@
+name: Back
+version: 1.0.0
+main: com.github.minh2.back.Back
+api-version: 1.21
+folia-supported: true
+author: Minh2
+description: Plugin cho phép người chơi quay lại vị trí vừa chết
+
+commands:
+  back:
+    description: Quay lại vị trí vừa chết
+    usage: /back hoặc /back reload
+    permission: back.use
+    aliases: [b]
+
+permissions:
+  back.use:
+    description: Cho phép sử dụng lệnh /back
+    default: true
+  back.reload:
+    description: Cho phép reload config plugin
+    default: op
+  back.*:
+    description: Tất cả quyền của plugin Back
+    default: op
+    children:
+      back.use: true
+      back.reload: true

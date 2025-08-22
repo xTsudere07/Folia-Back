@@ -1,0 +1,59 @@
+# Back Plugin Configuration
+# Cấu hình plugin Back
+
+# Thời gian chờ trước khi teleport (giây)
+teleport-delay: 5
+
+# Thông báo
+messages:
+  # Thông báo khi chưa chết lần nào
+  no-death-location: "⚠ Bạn chưa chết lần nào để quay lại đâu!"
+  
+  # Thông báo khi đang trong quá trình dịch chuyển
+  already-teleporting: "⚠ Bạn đang trong quá trình dịch chuyển rồi!"
+  
+  # Thông báo khi bị hủy do tấn công
+  cancelled-by-damage: "✖ Bạn bị tấn công, hủy dịch chuyển."
+  
+  # Thông báo khi bị hủy do di chuyển
+  cancelled-by-movement: "✖ Bạn đã di chuyển, hủy dịch chuyển."
+  
+  # Thông báo action bar khi đang chờ
+  countdown-actionbar: "☠ Dịch chuyển sau {time} giây..."
+  
+  # Thông báo khi teleport thành công
+  teleport-success: "☠ Đã quay lại vị trí vừa tử nạn!"
+  
+  # Thông báo khi reload config
+  config-reloaded: "✅ Đã tải lại cấu hình plugin Back!"
+  
+  # Thông báo khi người chơi chết
+  death-location: "Bạn đã chết tại {x} {y} {z}"
+  
+  # Thông báo hướng dẫn sử dụng /back
+  back-instruction: "Dùng lệnh /back để quay lại !"
+  
+  # Thông báo khi không có quyền
+  no-permission: "❌ Bạn không có quyền sử dụng lệnh này!"
+  
+  # Thông báo chỉ dành cho player
+  player-only: "Lệnh này chỉ có thể được sử dụng bởi người chơi."
+
+# Âm thanh
+sounds:
+  # Âm thanh khi không có death location
+  no-death-location: "ENTITY_VILLAGER_NO"
+  
+  # Âm thanh khi teleport thành công
+  teleport-success: "BLOCK_NOTE_BLOCK_PLING"
+  
+  # Âm thanh khi reload config
+  config-reloaded: "BLOCK_NOTE_BLOCK_CHIME"
+
+# Quyền hạn
+permissions:
+  # Quyền sử dụng lệnh /back
+  back-use: "back.use"
+  
+  # Quyền reload config
+  back-reload: "back.reload"
